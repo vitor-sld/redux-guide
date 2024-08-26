@@ -2,8 +2,7 @@
 import cartActionTypes from "./action-types"
 
 const initialState = {
-    products: [],
-    totalPriceOfProducts: 0,
+    products: []
 }
 
 const cartReducer = (state = initialState, action) => {
